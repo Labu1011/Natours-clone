@@ -14,7 +14,6 @@ if (process.env.NODE_ENV === 'development') {
 // body parser middleware
 app.use(express.json())
 
-console.log(process.env.NODE_ENV)
 // static files
 app.use(express.static(`${__dirname}/public`))
 
